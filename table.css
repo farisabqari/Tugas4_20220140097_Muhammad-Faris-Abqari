@@ -1,0 +1,46 @@
+
+.center-text {
+    text-align: center;
+}
+
+
+.member-photo {
+    width: 150px; 
+    height: auto; 
+    border-radius: 50%; 
+}
+
+/* Style each member card */
+.member-card {
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+    transition: 0.3s; 
+    margin-bottom: 20px; 
+}
+
+
+.member-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+
+
+.member-details {
+    padding: 20px;
+}
+
+.member-name {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.member-position {
+    font-size: 14px;
+    color: #555;
+}
+
+
+.member-info {
+    font-size: 14px;
+    color: #777;
+}
